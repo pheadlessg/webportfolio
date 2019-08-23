@@ -9,8 +9,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h3>Projects</h3>
-        <p>Here's where project cards will go</p>
+        <span>Projects</span>
         {this.state.projects.map((project, index) => {
           return <ProjectCard key={index} data={project} />;
         })}

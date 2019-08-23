@@ -1,12 +1,92 @@
 .App {
+  display: grid;
+  grid-template-rows: 10vw auto 5vw;
+  font-size: 20px;
   text-align: center;
+  width: auto;
 }
 
 .header {
-  position: fixed;
+  display: grid;
+  height: 130px;
+  grid-template-columns: 25% auto auto 25%;
+  grid-template-rows: auto auto auto;
+  background-color: white;
+  border: 1px solid red;
+  position: sticky;
   top: 0;
+  width: 100vw;
 }
+.title1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.title2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+.smlinks {
+  grid-column: 2;
+  grid-row: 2;
+}
+.contactinfo {
+  grid-column: 3;
+  grid-row: 2;
+}
+
 .footer {
+  border: 1px solid green;
+  background-color: white;
+  width: 100vw;
   position: fixed;
   bottom: 0;
+  height: 34px;
+}
+
+.main {
+  height: auto;
+  padding-bottom: 34px;
+  border: 1px solid blue;
+}
+.nav {
+  grid-row: 3;
+  width: 100vw;
+  border: 1px coral;
+}
+
+.projectcard {
+  justify-content: center;
+  width: 100vw;
+  border: 1px solid purple;
+  display: grid;
+  grid-template-columns: 20vw 60vw 20vw;
+  grid-template-rows: auto auto auto;
+  height: auto;
+}
+
+.pctitle {
+  border: 1px solid indianred;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.pcstack {
+  grid-column: 3;
+  grid-row: 1;
+  border: 1px solid pink;
+}
+
+.pcdesc {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row: 3;
+  border: 1px solid aqua;
+}
+
+.pcimg {
+  width: 20vw;
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border: 1px solid red;
 }

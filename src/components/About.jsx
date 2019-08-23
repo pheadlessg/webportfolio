@@ -3,8 +3,12 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <h3>About</h3>
-      <p>Here's some words about me</p>
+      <span>About</span>
+      <p>I'm a full stack JavaScript developer based in Southern California.</p>
+      <p>
+        I have extensive experience programming and testing RESTful APIs and
+        developing using Test Driven Development.
+      </p>
     </div>
   );
 };

@@ -1,27 +1,57 @@
 [
   {
-    "title": "Messageboard",
+    "title": "Messageboard Back-End",
     "stack": [
       {
-        "name": "React",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
-        "link": "www.google.com"
+        "name": "Node.js",
+        "link": "https://nodejs.org/"
+      },
+      {
+        "name": "PSQL",
+        "link": "https://www.postgresql.org/"
+      },
+      {
+        "name": "Knex.JS",
+        "link": "http://knexjs.org/"
       }
     ],
-    "description": "messageboard example",
+    "description": "Node.JS and PSQL back-end for a basic messageboard",
     "img": "https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg",
     "link": "www.google.com"
   },
   {
-    "title": "second example",
+    "title": "Messageboard Front-End",
     "stack": [
       {
         "name": "React",
-        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+        "img": "imglink.jpg",
+        "link": "www.google.com"
+      },
+      {
+        "name": "Axios",
+        "img": "imglink.jpg",
         "link": "www.google.com"
       }
     ],
-    "description": "messageboard example",
+    "description": "React based front-end linked with the above messageboard back-end",
+    "img": "https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg",
+    "link": "www.google.com"
+  },
+  {
+    "title": "Ursa",
+    "stack": [
+      {
+        "name": "Truffle",
+        "img": "imglink.jpg",
+        "link": "www.google.com"
+      },
+      {
+        "name": "React",
+        "img": "imglink.jpg",
+        "link": "www.google.com"
+      }
+    ],
+    "description": "Ethereum based DApp to illustrate the benefits and drawbacks of online voting. Ensure you are connected to the Ropsten test network through a tool such as MetaMask to access.",
     "img": "https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg",
     "link": "www.google.com"
   }

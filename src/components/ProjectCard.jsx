@@ -4,18 +4,19 @@ import Stack from './Stack';
 const ProjectCard = ({ data }) => {
   const { title, stack, description, img, link } = data;
   return (
-    <div>
-      <a href={link}>
-        <h2>Title: {title}</h2>
+    <div className="projectcard">
+      <a className="pctitle" href={link}>
+        {title}
       </a>
-      <div>
-        Stack:
+      <div className="pcstack">
         {stack.map((element, index) => {
           return <Stack key={index} data={element} />;
         })}
       </div>
-      <p>Description: {description}</p>
-      <img src={img} alt={title} />
+      <p className="pcdesc">{description}</p>
+      <a className="pcimg" href={link}>
+        <img className="pcimg" src={img} alt={title} />
+      </a>
     </div>
   );
 };

@@ -1,12 +1,14 @@
 import React from 'react';
+import Nav from './Nav';
 
 const Header = () => {
   return (
     <div className="header">
-      <h1>Sean Fisher</h1>
-      <h2>Full Stack JS Developer</h2>
-      <h3>Social Media Links Here</h3>
-      <h3>Contact info here</h3>
+      <span className="title1">Sean Fisher</span>
+      <span className="title2">Full Stack JS Developer</span>
+      <span className="smlinks">Social Media Links Here</span>
+      <span className="contactinfo">Contact info here</span>
+      <Nav />
     </div>
   );
 };
