@@ -1,9 +1,9 @@
 .App {
   display: grid;
   grid-template-rows: 10vw auto 5vw;
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
-  width: auto;
+  width: 100%;
 }
 
 .header {
@@ -44,6 +44,7 @@
 }
 
 .main {
+  margin-top: 100vh;
   height: auto;
   padding-bottom: 34px;
   border: 1px solid blue;
@@ -55,13 +56,12 @@
 }
 
 .projectcard {
-  justify-content: center;
-  width: 100vw;
   border: 1px solid purple;
   display: grid;
-  grid-template-columns: 20vw 60vw 20vw;
-  grid-template-rows: auto auto auto;
+  /* grid-template-columns: 20vw 60vw 20vw; */
+  /* grid-template-rows: auto auto auto; */
   height: auto;
+  padding: 10px;
 }
 
 .pctitle {
@@ -77,16 +77,20 @@
 }
 
 .pcdesc {
-  grid-column-start: 2;
+  grid-column-start: 1;
   grid-column-end: 4;
   grid-row: 3;
   border: 1px solid aqua;
 }
 
 .pcimg {
-  width: 20vw;
+  width: 10pc;
   grid-column: 1;
   grid-row-start: 1;
   grid-row-end: 4;
   border: 1px solid red;
+}
+
+.resumelink {
+  float: left;
 }

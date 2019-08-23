@@ -14,7 +14,7 @@ const ProjectCard = ({ data }) => {
         })}
       </div>
       <p className="pcdesc">{description}</p>
-      <a className="pcimg" href={link}>
+      <a href={link}>
         <img className="pcimg" src={img} alt={title} />
       </a>
     </div>

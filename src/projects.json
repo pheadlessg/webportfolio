@@ -16,7 +16,7 @@
       }
     ],
     "description": "Node.JS and PSQL back-end for a basic messageboard",
-    "img": "https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg",
+    "img": "https://i.imgur.com/ldH3nlf.png",
     "link": "www.google.com"
   },
   {
@@ -24,17 +24,15 @@
     "stack": [
       {
         "name": "React",
-        "img": "imglink.jpg",
         "link": "www.google.com"
       },
       {
         "name": "Axios",
-        "img": "imglink.jpg",
         "link": "www.google.com"
       }
     ],
     "description": "React based front-end linked with the above messageboard back-end",
-    "img": "https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg",
+    "img": "https://i.imgur.com/ijAKygW.png",
     "link": "www.google.com"
   },
   {
@@ -42,17 +40,27 @@
     "stack": [
       {
         "name": "Truffle",
-        "img": "imglink.jpg",
         "link": "www.google.com"
       },
       {
         "name": "React",
-        "img": "imglink.jpg",
         "link": "www.google.com"
       }
     ],
     "description": "Ethereum based DApp to illustrate the benefits and drawbacks of online voting. Ensure you are connected to the Ropsten test network through a tool such as MetaMask to access.",
-    "img": "https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg",
+    "img": "https://i.imgur.com/YMZtFnQ.png",
     "link": "www.google.com"
+  },
+  {
+    "title": "SF VOX",
+    "stack": [
+      {
+        "name": "React",
+        "link": "www.google.com"
+      }
+    ],
+    "description": "I'm a voice actor in my spare time, so built myself a website to use as a portfolio of work. I wanted to keep it extremely simple and easy to navigate, so it's made with a minimal React components and styled with Bootstrap by way of Reactstrap.",
+    "img": "https://i.imgur.com/qYzvoXd.png",
+    "link": "https://www.sfvox.com/"
   }
 ]
