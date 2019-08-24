@@ -6,7 +6,7 @@ const ProjectCard = ({ data }) => {
   return (
     <div className="projectcard">
       <a className="pctitle" href={link}>
-        {title}
+        <div className="pctitle">{title}</div>
       </a>
       <div className="pcstack">
         {stack.map((element, index) => {
@@ -14,7 +14,7 @@ const ProjectCard = ({ data }) => {
         })}
       </div>
       <p className="pcdesc">{description}</p>
-      <a href={link}>
+      <a className="pcimg" href={link}>
         <img className="pcimg" src={img} alt={title} />
       </a>
     </div>

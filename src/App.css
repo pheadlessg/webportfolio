@@ -50,47 +50,54 @@
   border: 1px solid blue;
 }
 .nav {
+  display: flex;
+  justify-content: space-evenly;
   grid-row: 3;
   width: 100vw;
   border: 1px coral;
 }
 
 .projectcard {
-  border: 1px solid purple;
+  border: 1px solid black;
+  margin: 10px;
   display: grid;
-  /* grid-template-columns: 20vw 60vw 20vw; */
-  /* grid-template-rows: auto auto auto; */
   height: auto;
   padding: 10px;
 }
 
 .pctitle {
-  border: 1px solid indianred;
-  grid-column: 2;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
   grid-row: 1;
 }
 
 .pcstack {
-  grid-column: 3;
-  grid-row: 1;
-  border: 1px solid pink;
+  display: flex;
+  justify-content: space-evenly;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 
 .pcdesc {
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row: 3;
-  border: 1px solid aqua;
 }
 
 .pcimg {
   width: 10pc;
   grid-column: 1;
-  grid-row-start: 1;
-  grid-row-end: 4;
-  border: 1px solid red;
+  grid-row: 1;
 }
 
 .resumelink {
   float: left;
+}
+
+.aboutcontainer {
+  border: solid 1px red;
+  margin-bottom: 50px;
 }

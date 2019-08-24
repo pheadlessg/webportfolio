@@ -3,7 +3,7 @@
     "title": "Messageboard Back-End",
     "stack": [
       {
-        "name": "Node.js",
+        "name": "Node.JS",
         "link": "https://nodejs.org/"
       },
       {
@@ -13,53 +13,57 @@
       {
         "name": "Knex.JS",
         "link": "http://knexjs.org/"
+      },
+      {
+        "name": "Express.JS",
+        "link": "https://expressjs.com/"
       }
     ],
-    "description": "Node.JS and PSQL back-end for a basic messageboard",
+    "description": "Node.JS and PSQL back-end for a basic messageboard using Knex.JS as an SQL query builder and Express.JS server.",
     "img": "https://i.imgur.com/ldH3nlf.png",
-    "link": "www.google.com"
+    "link": "https://github.com/pheadlessg/NC-Knews"
   },
   {
     "title": "Messageboard Front-End",
     "stack": [
       {
         "name": "React",
-        "link": "www.google.com"
+        "link": "https://reactjs.org/"
       },
       {
         "name": "Axios",
-        "link": "www.google.com"
+        "link": "https://github.com/axios/axios"
       }
     ],
-    "description": "React based front-end linked with the above messageboard back-end",
+    "description": "React based front-end linked with the above messageboard back-end. Axios is used as an HTTP server.",
     "img": "https://i.imgur.com/ijAKygW.png",
-    "link": "www.google.com"
+    "link": "https://practical-mirzakhani-81b282.netlify.com/"
   },
   {
     "title": "Ursa",
     "stack": [
       {
         "name": "Truffle",
-        "link": "www.google.com"
+        "link": "https://www.trufflesuite.com/"
       },
       {
         "name": "React",
-        "link": "www.google.com"
+        "link": "https://reactjs.org/"
       }
     ],
-    "description": "Ethereum based DApp to illustrate the benefits and drawbacks of online voting. Ensure you are connected to the Ropsten test network through a tool such as MetaMask to access.",
+    "description": "Ethereum based dApp to illustrate the benefits and drawbacks of online voting. Ensure you are connected to the Ethereum Ropsten test network through a tool such as MetaMask to access.",
     "img": "https://i.imgur.com/YMZtFnQ.png",
-    "link": "www.google.com"
+    "link": "https://ursavote.netlify.com/"
   },
   {
     "title": "SF VOX",
     "stack": [
       {
         "name": "React",
-        "link": "www.google.com"
+        "link": "https://reactjs.org/"
       }
     ],
-    "description": "I'm a voice actor in my spare time, so built myself a website to use as a portfolio of work. I wanted to keep it extremely simple and easy to navigate, so it's made with a minimal React components and styled with Bootstrap by way of Reactstrap.",
+    "description": "I'm a voice actor in my spare time, so I built myself a website to use as a portfolio of work to send to clients. I wanted to keep it extremely simple and easy to navigate, so it's made with a minimal React components and styled with Bootstrap by way of Reactstrap.",
     "img": "https://i.imgur.com/qYzvoXd.png",
     "link": "https://www.sfvox.com/"
   }
