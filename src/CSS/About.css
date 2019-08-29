@@ -1,0 +1,13 @@
+.aboutcontainer {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 20px;
+  border: solid 1px red;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+.abouttitle {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 40px;
+}

@@ -1,5 +1,4 @@
 .header {
-  /* height: 15vh; */
   display: grid;
   background-color: white;
   border: 1px solid red;
@@ -12,7 +11,6 @@
   display: flex;
   flex-direction: row;
   font-family: 'Passion One', cursive;
-  /* font-size: 50px; */
   justify-content: space-evenly;
   grid-column-start: 1;
   grid-column-end: 2;
@@ -35,13 +33,11 @@
 }
 .nav {
   font-family: 'Passion One', cursive;
-  /* font-size: 30px; */
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
   border: 1px coral;
 }
-
 .headerRow2 {
   display: flex;
   justify-content: space-evenly;
