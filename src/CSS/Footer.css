@@ -1,6 +1,5 @@
 .footer {
   display: grid;
-  border: 1px solid green;
   background-color: white;
   width: 100vw;
   position: fixed;
@@ -26,8 +25,23 @@
   align-self: center;
 }
 .resumelink {
+  color: black;
   grid-column: 1;
   grid-row: 2;
+}
+
+.resumelink:hover {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.credlink {
+  color: black;
+}
+
+.credlink:hover {
+  text-decoration: none;
+  color: dimgray;
 }
 
 @media (min-width: 320px) {

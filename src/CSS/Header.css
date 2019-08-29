@@ -1,13 +1,14 @@
 .header {
   display: grid;
   background-color: white;
-  border: 1px solid red;
+
   font-size: 34px;
   position: sticky;
   top: 0;
   width: 100vw;
 }
 .title {
+  color: black;
   display: flex;
   flex-direction: row;
   font-family: 'Passion One', cursive;
@@ -16,12 +17,23 @@
   grid-column-end: 2;
   grid-row: 1;
 }
+.title:hover {
+  text-decoration: none;
+  color: dimgray;
+}
 .nav {
   font-family: 'Passion One', cursive;
   display: flex;
   justify-content: space-evenly;
   width: 100vw;
   border: 1px coral;
+}
+.link {
+  color: black;
+}
+.link:hover {
+  text-decoration: none;
+  color: dimgray;
 }
 
 @media (min-width: 320px) {

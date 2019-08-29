@@ -29,13 +29,18 @@ const Footer = () => {
         <div className="credit">
           Icons made by{' '}
           <a
+            className="credlink"
             href="https://www.flaticon.com/authors/dave-gandy"
             title="Dave Gandy"
           >
             Dave Gandy
           </a>{' '}
           from{' '}
-          <a href="https://www.flaticon.com/" title="Flaticon">
+          <a
+            className="credlink"
+            href="https://www.flaticon.com/"
+            title="Flaticon"
+          >
             www.flaticon.com
           </a>
         </div>

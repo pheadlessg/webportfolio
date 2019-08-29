@@ -3,11 +3,28 @@
   flex-direction: column;
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 40px;
-  border: solid 1px red;
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 15px;
   text-align: center;
+}
+
+.tellink {
+  color: black;
+}
+
+.emaillink {
+  color: black;
+}
+
+.tellink:hover {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.emaillink:hover {
+  text-decoration: none;
+  color: dimgray;
 }
 
 .contactcontainer:hover {
