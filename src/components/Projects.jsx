@@ -8,7 +8,7 @@ class Projects extends Component {
   };
   render() {
     return (
-      <div className="aboutcontainer">
+      <div className="maincontainer">
         {this.state.projects.map((project, index) => {
           return <ProjectCard key={index} data={project} />;
         })}

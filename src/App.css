@@ -1,42 +1,8 @@
 .App {
   display: grid;
-  grid-template-rows: 10vw auto 5vw;
-  font-size: 15px;
+  /* grid-template-rows: 10vw auto 5vw; */
   text-align: center;
   width: 100%;
-}
-
-.header {
-  display: grid;
-  height: 130px;
-  grid-template-columns: 25% auto auto 25%;
-  grid-template-rows: auto auto auto;
-  background-color: white;
-  border: 1px solid red;
-  position: sticky;
-  top: 0;
-  width: 100vw;
-}
-.title {
-  display: flex;
-  font-family: 'Passion One', cursive;
-  justify-content: space-evenly;
-  grid-column: 2;
-  grid-row: 1;
-  font-size: 34px;
-}
-
-.smlinks {
-  grid-column: 2;
-  grid-row: 2;
-}
-.sm {
-  height: 30px;
-  width: auto;
-}
-.contactinfo {
-  grid-column: 3;
-  grid-row: 2;
 }
 
 .footer {
@@ -45,17 +11,7 @@
   width: 100vw;
   position: fixed;
   bottom: 0;
-  height: 34px;
-}
-
-.nav {
-  font-family: 'Passion One', cursive;
-  font-size: 30px;
-  display: flex;
-  justify-content: space-evenly;
-  grid-row: 3;
-  width: 100vw;
-  border: 1px coral;
+  height: 50px;
 }
 
 .projectcard {
@@ -97,13 +53,36 @@
   grid-row: 1;
 }
 
-.resumelink {
-  float: left;
-}
-
-.aboutcontainer {
-  margin-top: 130px;
+.maincontainer {
   font-family: 'Cabin Condensed', sans-serif;
   border: solid 1px red;
   margin-bottom: 50px;
+}
+
+.credit {
+  font-size: 10px;
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 700px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 200%;
+  }
 }
