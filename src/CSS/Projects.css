@@ -73,6 +73,7 @@
     height: auto;
   }
   .projectcontainer {
+    width: 100vw;
     height: auto;
     margin-bottom: 11vh;
   }
