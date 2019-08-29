@@ -1,0 +1,60 @@
+.projectcontainer {
+  height: auto;
+  margin-bottom: 11vh;
+}
+
+.projectcard {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 30vw 70vw;
+  grid-template-rows: 10vh 10vh 10vh;
+  grid-template-areas:
+    'image title'
+    'image stack'
+    'image description';
+  height: auto;
+}
+
+.projectcontainer {
+  height: auto;
+  margin-bottom: 11vh;
+}
+
+.projectcard {
+  border: 1px solid black;
+  margin: 10px;
+  display: grid;
+  height: 40vh;
+  padding: 10px;
+}
+
+.pctitle {
+  font-family: 'Passion One', cursive;
+  display: flex;
+  font-size: 30px;
+  justify-content: space-evenly;
+  grid-area: title;
+}
+
+.pcstack {
+  font-family: 'Cabin Condensed', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  grid-area: stack;
+}
+
+.pcdesc {
+  width: 65vw;
+  height: 10vw;
+  text-align: center;
+  font-family: 'Cabin Condensed', sans-serif;
+  grid-area: description;
+}
+
+.pcimg {
+  justify-self: center;
+  align-self: center;
+  height: auto;
+  width: 25vw;
+  grid-area: image;
+}
