@@ -1,28 +1,17 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { Link } from '@reach/router';
 
 const Nav = () => {
   return (
     <div className="nav">
-      <Link
-        className="link"
-        to="about"
-        smooth={true}
-        offset={-150}
-        duration={500}
-        isDynamic={true}
-      >
+      <Link to="/about/" className="link">
         About
       </Link>
-      <Link
-        className="link"
-        to="projects"
-        smooth={true}
-        offset={-130}
-        duration={500}
-        isDynamic={true}
-      >
+      <Link to="/projects/" className="link">
         Projects
+      </Link>
+      <Link to="/contact/" className="link">
+        Contact
       </Link>
     </div>
   );

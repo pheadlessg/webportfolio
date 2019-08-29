@@ -3,9 +3,6 @@ import React from 'react';
 const About = () => {
   return (
     <div className="aboutcontainer">
-      <span>About</span>
-      <br />
-      <br />
       <p>I'm a full stack JavaScript developer based in Southern California.</p>
       <p>
         I build responsive and easy to use UIs and websites using React, as well

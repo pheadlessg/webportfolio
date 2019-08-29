@@ -17,17 +17,22 @@
   top: 0;
   width: 100vw;
 }
-.title1 {
+.title {
+  display: flex;
+  font-family: 'Passion One', cursive;
+  justify-content: space-evenly;
   grid-column: 2;
   grid-row: 1;
+  font-size: 34px;
 }
-.title2 {
-  grid-column: 3;
-  grid-row: 1;
-}
+
 .smlinks {
   grid-column: 2;
   grid-row: 2;
+}
+.sm {
+  height: 30px;
+  width: auto;
 }
 .contactinfo {
   grid-column: 3;
@@ -43,13 +48,9 @@
   height: 34px;
 }
 
-.main {
-  margin-top: 100vh;
-  height: auto;
-  padding-bottom: 34px;
-  border: 1px solid blue;
-}
 .nav {
+  font-family: 'Passion One', cursive;
+  font-size: 30px;
   display: flex;
   justify-content: space-evenly;
   grid-row: 3;
@@ -66,6 +67,7 @@
 }
 
 .pctitle {
+  font-family: 'Passion One', cursive;
   display: flex;
   font-size: 30px;
   justify-content: center;
@@ -75,6 +77,7 @@
 }
 
 .pcstack {
+  font-family: 'Cabin Condensed', sans-serif;
   display: flex;
   justify-content: space-evenly;
   grid-column-start: 1;
@@ -82,6 +85,7 @@
 }
 
 .pcdesc {
+  font-family: 'Cabin Condensed', sans-serif;
   grid-column-start: 1;
   grid-column-end: 4;
   grid-row: 3;
@@ -98,6 +102,8 @@
 }
 
 .aboutcontainer {
+  margin-top: 130px;
+  font-family: 'Cabin Condensed', sans-serif;
   border: solid 1px red;
   margin-bottom: 50px;
 }
