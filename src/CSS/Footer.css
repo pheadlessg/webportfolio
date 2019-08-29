@@ -1,0 +1,19 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid green;
+  background-color: white;
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  height: auto;
+  font-size: 15px;
+  font-family: 'Passion One', cursive;
+}
+/* .credit {
+  font-size: 15px;
+}
+
+.footertext {
+  font-size: 10px;
+} */

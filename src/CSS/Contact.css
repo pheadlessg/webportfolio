@@ -1,0 +1,15 @@
+.contactcontainer {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 40px;
+  border: solid 1px red;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  text-align: center;
+}
+
+.contactcontainer:hover {
+  text-decoration: none;
+}

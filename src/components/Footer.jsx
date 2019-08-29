@@ -1,8 +1,10 @@
 import React from 'react';
+import '../CSS/Footer.css';
 
 const Footer = () => {
   return (
     <div className="footer">
+      <span className="footertext">Made by Sean Fisher 2019</span>
       <div className="credit">
         Icons made by{' '}
         <a
@@ -16,7 +18,6 @@ const Footer = () => {
           www.flaticon.com
         </a>
       </div>
-      Here's the footer
     </div>
   );
 };
