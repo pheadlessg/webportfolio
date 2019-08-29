@@ -1,17 +1,7 @@
 .App {
   display: grid;
-  /* grid-template-rows: 10vw auto 5vw; */
   text-align: center;
   width: 100%;
-}
-
-.footer {
-  border: 1px solid green;
-  background-color: white;
-  width: 100vw;
-  position: fixed;
-  bottom: 0;
-  height: 50px;
 }
 
 .projectcard {
@@ -51,16 +41,6 @@
   width: 10pc;
   grid-column: 1;
   grid-row: 1;
-}
-
-.maincontainer {
-  font-family: 'Cabin Condensed', sans-serif;
-  border: solid 1px red;
-  margin-bottom: 50px;
-}
-
-.credit {
-  font-size: 10px;
 }
 
 @media (max-width: 300px) {

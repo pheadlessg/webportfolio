@@ -16,21 +16,6 @@
   grid-column-end: 2;
   grid-row: 1;
 }
-
-.smlinks {
-  grid-column: 2;
-  grid-row: 2;
-}
-.sm {
-  padding: 5px;
-  height: 50px;
-  width: auto;
-}
-.resumelink {
-  font-size: 30px;
-  grid-column: 1;
-  grid-row: 2;
-}
 .nav {
   font-family: 'Passion One', cursive;
   display: flex;
@@ -38,21 +23,9 @@
   width: 100vw;
   border: 1px coral;
 }
-.headerRow2 {
-  display: flex;
-  justify-content: space-evenly;
-  align-content: center;
-  height: 50px;
-}
 
 @media (min-width: 320px) {
   .title {
-    font-size: 80%;
-  }
-  .sm {
-    height: 40px;
-  }
-  .resumelink {
     font-size: 80%;
   }
   .nav {
@@ -62,12 +35,6 @@
 
 @media (min-width: 425px) {
   .title {
-    font-size: 100%;
-  }
-  .sm {
-    height: 50px;
-  }
-  .nav {
     font-size: 100%;
   }
   .resumelink {
