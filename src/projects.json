@@ -33,7 +33,9 @@
       {
         "name": "Axios",
         "link": "https://github.com/axios/axios"
-      }
+      },
+      { "name": "HTML" },
+      { "name": "CSS" }
     ],
     "description": "React based front-end linked with the above messageboard back-end. Axios is used as an HTTP server.",
     "img": "https://i.imgur.com/ijAKygW.png",
@@ -49,7 +51,9 @@
       {
         "name": "React",
         "link": "https://reactjs.org/"
-      }
+      },
+      { "name": "HTML" },
+      { "name": "CSS" }
     ],
     "description": "Ethereum based dApp to illustrate the benefits and considerable drawbacks of online voting. Ensure you are connected to the Ethereum Ropsten test network through a tool such as MetaMask to access.",
     "img": "https://i.imgur.com/YMZtFnQ.png",
@@ -61,7 +65,10 @@
       {
         "name": "React",
         "link": "https://reactjs.org/"
-      }
+      },
+      { "name": "HTML" },
+      { "name": "CSS" },
+      { "name": "reactstrap", "link": "https://reactstrap.github.io/" }
     ],
     "description": "I'm a voice actor in my spare time, so I built myself a website to use as a portfolio of work to send to clients. I wanted to keep it extremely simple and easy to navigate, so it's made with a minimal React components and styled with Bootstrap by way of Reactstrap.",
     "img": "https://i.imgur.com/qYzvoXd.png",
