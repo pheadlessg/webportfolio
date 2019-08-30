@@ -6,6 +6,7 @@
   bottom: 0;
   height: 10vh;
   font-family: 'Passion One', cursive;
+  border-top: 1px solid black;
 }
 .sm {
   padding: 5px;

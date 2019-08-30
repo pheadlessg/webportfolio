@@ -1,19 +1,15 @@
 .projectcontainer {
-  height: auto;
-  margin-bottom: 11vh;
-
   max-width: 100%;
   height: 78vh;
 }
 .projectcard {
-  background: white;
+  background: whitesmoke;
   border: 1px solid black;
   display: grid;
-  grid-template-rows: auto auto;
   grid-template-areas:
-    'image title'
-    'image stack'
-    'image description';
+    'image title github'
+    'image stack stack'
+    'image description description';
   height: auto;
   padding: 10px;
   margin: 10px;
@@ -33,6 +29,19 @@
   grid-area: title;
 }
 
+.pctitle:hover {
+  text-decoration: none;
+  color: dimgray;
+}
+
+.githublink {
+  width: 40px;
+  grid-area: github;
+}
+.githubpic {
+  height: 40px;
+  width: auto;
+}
 .pcstack {
   color: black;
   font-family: 'Cabin Condensed', sans-serif;
@@ -43,6 +52,11 @@
 
 .stacklink {
   color: black;
+}
+
+.stacklink:hover {
+  text-decoration: none;
+  color: dimgray;
 }
 
 .pcdesc {
