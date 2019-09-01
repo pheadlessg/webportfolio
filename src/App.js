@@ -7,6 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Home from './components/Home';
+import Error from './components/Error';
 
 class App extends Component {
   state = {
@@ -24,7 +25,7 @@ class App extends Component {
             <About path="/about/" />
             <Projects path="/projects/" />
             <Contact path="/contact/" />
-            {/* <Error path="*" /> */}
+            <Error path="*" />
           </Router>
           <Footer />
         </div>
