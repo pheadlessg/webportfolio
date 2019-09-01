@@ -21,7 +21,8 @@
     ],
     "description": "Node.JS and PSQL back-end for a basic messageboard using Knex.JS as an SQL query builder and Express.JS server.",
     "img": "https://i.imgur.com/ldH3nlf.png",
-    "link": "https://github.com/pheadlessg/NC-Knews"
+    "link": "https://github.com/pheadlessg/NC-Knews",
+    "githublink": "https://github.com/pheadlessg/NC-Knews"
   },
   {
     "title": "Messageboard Front-End",
@@ -39,7 +40,8 @@
     ],
     "description": "React based front-end linked with the above messageboard back-end. Axios is used as an HTTP server.",
     "img": "https://i.imgur.com/ijAKygW.png",
-    "link": "https://practical-mirzakhani-81b282.netlify.com/"
+    "link": "https://practical-mirzakhani-81b282.netlify.com/",
+    "githublink": "https://github.com/pheadlessg/nc-news"
   },
   {
     "title": "Ursa",
@@ -57,7 +59,8 @@
     ],
     "description": "Ethereum based dApp to illustrate the benefits and considerable drawbacks of online voting. Ensure you are connected to the Ethereum Ropsten test network through a tool such as MetaMask to access.",
     "img": "https://i.imgur.com/YMZtFnQ.png",
-    "link": "https://ursavote.netlify.com/"
+    "link": "https://ursavote.netlify.com/",
+    "githublink": "https://github.com/pheadlessg/Ursa"
   },
   {
     "title": "SF VOX",
@@ -72,6 +75,7 @@
     ],
     "description": "I'm a voice actor in my spare time, so I built myself a website to use as a portfolio of work to send to clients. I wanted to keep it extremely simple and easy to navigate, so it's made with a minimal React components and styled with Bootstrap by way of Reactstrap.",
     "img": "https://i.imgur.com/qYzvoXd.png",
-    "link": "https://www.sfvox.com/"
+    "link": "https://www.sfvox.com/",
+    "githublink": "https://github.com/pheadlessg/vox"
   }
 ]

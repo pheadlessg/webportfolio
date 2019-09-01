@@ -9,9 +9,9 @@ const ProjectCard = ({ data }) => {
       <a className="pctitle" href={link}>
         <div className="pctitle">{title}</div>
       </a>
-      {/* <a className="githublink" href={githublink}>
+      <a className="githublink" href={githublink}>
         <img className="githubpic" src={github} alt="github link"></img>
-      </a> */}
+      </a>
       <div className="pcstack">
         {stack.map((element, index) => {
           return <Stack key={index} data={element} />;
