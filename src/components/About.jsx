@@ -1,9 +1,11 @@
 import React from 'react';
 import '../CSS/About.css';
+import profilepic from '../img/profilepic.jpg';
 
 const About = () => {
   return (
     <div className="aboutcontainer">
+      <img className="aboutpic" src={profilepic} alt="profilepic" />
       <span className="abouttitle">Hi, I'm Sean.</span>
       <p>I'm a full stack JavaScript developer based in Southern California.</p>
       <p>

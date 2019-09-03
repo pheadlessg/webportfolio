@@ -10,3 +10,10 @@
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 40px;
 }
+
+.aboutpic {
+  height: auto;
+  width: 50vw;
+  /* padding-bottom: 10px; */
+  float: left;
+}

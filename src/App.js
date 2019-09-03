@@ -21,7 +21,7 @@ class App extends Component {
         <div className="App">
           <Header />
           <Router>
-            <Home path="/"></Home>
+            <Home path="/" />
             <About path="/about/" />
             <Projects path="/projects/" />
             <Contact path="/contact/" />
