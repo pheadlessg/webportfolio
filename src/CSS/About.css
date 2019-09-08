@@ -1,4 +1,5 @@
 .aboutcontainer {
+  height: 78vh;
   display: grid;
   justify-content: center;
   grid-template-columns: 20vw 70vw;
@@ -8,14 +9,13 @@
     'text text text';
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 20px;
-  /* margin-top: 1vh; */
   margin-bottom: 11vh;
   padding: 15px;
-  /* padding-top: 10vh; */
 }
 
 .abouttitle {
   grid-area: title;
+  align-self: center;
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 40px;
 }
@@ -35,7 +35,7 @@
 }
 
 .languageContainer {
-  width: 68vw;
+  width: 55vw;
   grid-area: languages;
   font-size: 16px;
   justify-self: center;
