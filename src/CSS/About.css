@@ -1,19 +1,83 @@
 .aboutcontainer {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 20vw 70vw;
+  grid-template-areas:
+    'image title title'
+    'image languages languages'
+    'text text text';
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 20px;
-  margin-top: 1vh;
+  /* margin-top: 1vh; */
   margin-bottom: 11vh;
   padding: 15px;
+  /* padding-top: 10vh; */
 }
 
 .abouttitle {
+  grid-area: title;
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 40px;
 }
 
 .aboutpic {
-  height: auto;
-  width: 50vw;
-  /* padding-bottom: 10px; */
+  grid-area: image;
+  height: 100%;
+  width: auto;
   float: left;
+}
+
+.aboutTextContainer {
+  grid-area: text;
+  margin-top: 2vh;
+  padding-top: 3vh;
+  border-top: 1px solid black;
+}
+
+.languageContainer {
+  width: 68vw;
+  grid-area: languages;
+  font-size: 16px;
+  justify-self: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.languageText {
+  font-family: 'Passion One', cursive;
+  font-size: 25px;
+  text-align: center;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  border-radius: 10px;
+  height: 25px;
+  margin: 5px;
+}
+
+@media (max-width: 800px) {
+  .aboutcontainer {
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-areas:
+      'image'
+      'title'
+      'languages'
+      'text';
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 20px;
+    margin-bottom: 11vh;
+    padding: 15px;
+  }
+  .aboutpic {
+    grid-area: image;
+    height: auto;
+    width: 50%;
+    justify-self: center;
+  }
+  .languageContainer {
+    width: 90vw;
+  }
 }
