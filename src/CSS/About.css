@@ -1,5 +1,5 @@
 .aboutcontainer {
-  height: 78vh;
+  height: auto;
   display: grid;
   justify-content: center;
   grid-template-columns: 20vw 70vw;
@@ -10,6 +10,7 @@
   font-family: 'Cabin Condensed', sans-serif;
   font-size: 20px;
   padding: 15px;
+  margin-bottom: 11vh;
 }
 
 .abouttitle {
@@ -31,7 +32,6 @@
   margin-top: 2vh;
   padding-top: 3vh;
   border-top: 1px solid black;
-  margin-bottom: 11vh;
 }
 
 .languageContainer {
