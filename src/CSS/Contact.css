@@ -1,4 +1,5 @@
 .contactcontainer {
+  grid-area: main;
   display: flex;
   flex-direction: column;
   font-family: 'Cabin Condensed', sans-serif;

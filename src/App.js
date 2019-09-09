@@ -15,7 +15,7 @@ class App extends Component {
   };
   render() {
     if (this.state.isLoading) {
-      return <h1>Loading</h1>;
+      return <h1>LOADING</h1>;
     } else {
       return (
         <div className="App">
@@ -33,7 +33,6 @@ class App extends Component {
     }
   }
   componentDidMount() {
-    window.scrollTo(0, 0);
     this.setState({ isLoading: false });
   }
 }

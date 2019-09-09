@@ -1,4 +1,5 @@
 .homebackground {
+  grid-area: main;
   background-image: url('../img/code.jpg');
   max-width: 100%;
   height: 78vh;

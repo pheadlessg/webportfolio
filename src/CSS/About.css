@@ -1,5 +1,5 @@
 .aboutcontainer {
-  height: auto;
+  grid-area: main;
   display: grid;
   justify-content: center;
   grid-template-columns: 20vw 70vw;

@@ -1,5 +1,9 @@
 .App {
   display: grid;
   text-align: center;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
   width: 100vw;
 }
