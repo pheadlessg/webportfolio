@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS/Footer.css';
-import resume from '../documents/resume.pdf';
+import resume from '../documents/CodeResume.pdf';
 import github from '../img/github.png';
 import insta from '../img/insta.png';
 import linkedin from '../img/linkedin.png';
