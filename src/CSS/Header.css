@@ -1,4 +1,5 @@
 .header {
+  height: 11vh;
   display: grid;
   background-color: white;
   font-size: 34px;
