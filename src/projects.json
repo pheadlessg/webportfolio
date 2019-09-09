@@ -33,7 +33,7 @@
     "description": "Ethereum based dApp to illustrate the benefits and considerable drawbacks of online voting. Ensure you are connected to the Ethereum Ropsten test network through a tool such as MetaMask to access.",
     "img": "https://i.imgur.com/YMZtFnQ.png",
     "link": "https://ursavote.netlify.com/",
-    "githublink": "https://github.com/pheadlessg/ashportfolio"
+    "githublink": "https://github.com/pheadlessg/Ursa"
   },
 
   {
@@ -50,7 +50,7 @@
     "description": "Single page screenwriting portfolio page styled with Reactstrap and using react-scroll for smooth scrolling between elements on the page.",
     "img": "https://i.imgur.com/zqoAkV7.png",
     "link": "https://inspiring-dijkstra-e323cc.netlify.com/",
-    "githublink": "https://github.com/pheadlessg/Ursa"
+    "githublink": "https://github.com/pheadlessg/ashportfolio"
   },
 
   {

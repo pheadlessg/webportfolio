@@ -42,7 +42,7 @@ const About = () => {
           which expose me to new languages, frameworks and coding practices.
         </p>
         <p>
-          I'd say that I'm set aside from most developers through my unique
+          I'd say that I'm set apart from most developers through my unique
           history as an entrepreneur, business consultant and customer service
           professional. I'm not only able to see the big picture and how it can
           be affected by the small details but also how to communicate my ideas
