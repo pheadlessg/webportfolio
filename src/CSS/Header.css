@@ -1,5 +1,5 @@
 .header {
-  height: 11vh;
+  height: auto;
   display: grid;
   background-color: white;
   font-size: 34px;
