@@ -10,7 +10,7 @@
       { "name": "CSS3" },
       { "name": "reactstrap", "link": "https://reactstrap.github.io/" }
     ],
-    "description": "I'm a voice actor in my spare time, so I built myself a website to use as a portfolio of work to send to clients. I wanted to keep it extremely simple and easy to navigate, so it's made with a minimal React components and styled with Bootstrap by way of Reactstrap.",
+    "description": "I'm a voice actor in my spare time, so I built myself a website to use as a portfolio of work to send to clients. I wanted to keep it extremely simple and easy to navigate, so it's made with minimal React components and styled with Bootstrap by way of Reactstrap.",
     "img": "https://i.imgur.com/qYzvoXd.png",
     "link": "https://www.sfvox.com/",
     "githublink": "https://github.com/pheadlessg/vox"
