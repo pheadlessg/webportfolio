@@ -20,7 +20,7 @@ class App extends Component {
       return (
         <div className="App">
           <Header />
-          <Router>
+          <Router primary={false}>
             <Home path="/" />
             <About path="/about/" />
             <Projects path="/projects/" />
