@@ -3,6 +3,7 @@ import '../CSS/About.css';
 import profilepic from '../img/profilepic.jpg';
 
 const About = () => {
+  window.scrollTo(0, 0);
   return (
     <div className="aboutcontainer">
       <span className="abouttitle">About</span>
