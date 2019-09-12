@@ -30,9 +30,9 @@
       { "name": "HTML5" },
       { "name": "CSS3" }
     ],
-    "description": "Ethereum based dApp to illustrate the benefits and considerable drawbacks of online voting. Ensure you are connected to the Ethereum Ropsten test network through a tool such as MetaMask to access.",
+    "description": "Ethereum based dApp to illustrate the benefits and considerable drawbacks of online voting.",
     "img": "https://i.imgur.com/YMZtFnQ.png",
-    "link": "https://ursavote.netlify.com/",
+    "link": "https://github.com/pheadlessg/Ursa",
     "githublink": "https://github.com/pheadlessg/Ursa"
   },
 
